@@ -30,6 +30,10 @@ function run() {
     --env MONGODB_DATABASE=$MONGODB_DATABASE \
     --env MONGODB_PASS=$MONGODB_PASS \
     $CONTAINER_NAME
+
+  ip
+
+  echo "started docker container $CONTAINER_NAME"
 }
 
 function help() {
